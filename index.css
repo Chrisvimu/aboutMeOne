@@ -9,14 +9,17 @@
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#194376", endColorstr="#393B76", GradientType=1 );
     color: #F4F4ED;
 }
-
 .theme-day {
     background: hsla(53, 98%, 56%, 1);
 
     background: linear-gradient(225deg, hsla(53, 98%, 56%, 1) 2%, hsla(16, 100%, 64%, 1) 20%, hsla(315, 48%, 55%, 1) 64%, hsla(200, 87%, 82%, 1) 98%);
     
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#fde321", endColorstr="#ff7847", GradientType=1 );
-    color: azure;
+    color: black;
+}
+
+.title1 {
+    font-family: "Lucida Console", "Courier New";
 }
 /*/SYLE BY COMMON COMPONENTS/*/
 
@@ -34,9 +37,7 @@
 }
 
 #footer {
-    height: 30em;
-}
-#footer img {
-    object-fit: cover;
+    width: 100%;
+    height: 200em;
 }
 /*/STYLE BY SECTIONS/*/
