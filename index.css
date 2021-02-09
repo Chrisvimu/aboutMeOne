@@ -32,4 +32,11 @@
     align-self: flex-end center;
     padding-right: 1em;
 }
+
+#footer {
+    height: 30em;
+}
+#footer img {
+    object-fit: cover;
+}
 /*/STYLE BY SECTIONS/*/
