@@ -5,26 +5,30 @@ $(document).ready(function () {
         let tNight = "theme-night";
         let tImage = document.getElementById('theme-image');
         let tButton = document.getElementById('theme-selector');
-        // let tbody = document.getElementById('body');
+        // let tBody = document.getElementById('body');
+        // let tBody = document.querySelector("body");
         if (header.hasClass(tDay)) {
             let theme = $(".theme-day")
-            theme.each(function (indice, val) {
-                $(val).toggleClass(`${tDay} ${tNight}`);
-                tImage.src = "Resources/moon.png";
-                tButton.className = "btn btn-outline-secondary";
-                tbody.className = "body-night";
-
-            });
+            let tBody = $(".body-day")
+            themeChanger(theme, tDay, tNight); // Changes theme for footer and navBar
+            tImage.src = "Resources/moon.png";
+            tButton.className = "btn btn-outline-secondary";
+            themeChanger(tBody, "body-day", "body-night"); // Changes body theme
         } else if (header.hasClass(tNight)) {
             let theme = $(".theme-night")
-            theme.each(function (indice, val) {
-                $(val).toggleClass(`${tNight} ${tDay}`);
-                tImage.src = "Resources/sun.png";
-                tButton.className = "btn btn-outline-warning";
-                tbody.className = "body-day";
-            });
+            let tBody = $(".body-night")
+            themeChanger(theme, tNight, tDay); // Changes theme for footer and navBar
+            tImage.src = "Resources/sun.png";
+            tButton.className = "btn btn-outline-warning";
+            themeChanger(tBody, "body-night", "body-day"); // Changes body theme
         } else {
             console.log("Error theme");
         }
     });
 });
+
+function themeChanger(object, oldTheme, newTheme) {
+    object.each(function (indice, val) {
+        $(val).toggleClass(`${oldTheme} ${newTheme}`);
+    });
+};

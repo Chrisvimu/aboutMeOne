@@ -49,6 +49,7 @@ p {
 
 /*STYLE BY SECTIONS*/
 #header {
+    border-radius: 0 0 20% 20%;
     height: 5em;
 }
 #header img {
@@ -58,6 +59,7 @@ p {
 #header button {
     align-self: flex-end center;
     padding-right: 1em;
+    border-radius: 50%;
 }
 
 #footer {
@@ -72,6 +74,7 @@ p {
 
 #about iframe {
     height: 45em;
+    max-width: 100%;
 }
 
 #about img {
