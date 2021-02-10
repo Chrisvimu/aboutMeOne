@@ -68,21 +68,46 @@ p {
 }
 
 #about {
-    padding-top: 5em;
     object-fit: contain;
+    border-radius: 15%;
 }
+/* CSS screens 320px o above */
+@media (min-width: 320px) {
 
-#about iframe {
-    height: 45em;
-    max-width: 100%;
+    #about iframe {
+      height: 64em;
+      max-width: 100%;
+    } 
 }
+/* CSS screens 550px o above */
+@media (min-width: 550px) {
 
+    #about iframe {
+      height: 58em;
+      max-width: 100%;
+    } 
+}
+/* CSS screens 900px o above */
+@media (min-width: 900px) {
+
+    #about iframe {
+      height: 54em;
+      max-width: 100%;
+    } 
+}
+/* CSS screens 1200px o above */
+@media (min-width: 1200px) {
+
+    #about iframe {
+      height: 40em;
+      max-width: 100%;
+    } 
+}
 #about img {
-
     border-radius: 45%;
-    max-height: 60vh;
+    max-height: 20em;
     width: auto;
-    border: 0.2em solid #e97117;
+    border: 0.2em solid black;
 }
 
 
