@@ -45,6 +45,13 @@ p {
     background: linear-gradient(360deg, hsla(0, 2%, 34%, 1) 1%, hsla(300, 4%, 9%, 1) 92%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#575454", endColorstr="#181618", GradientType=1 );
 }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
 /*/SYLE BY COMMON COMPONENTS/*/
 
 /*STYLE BY SECTIONS*/
@@ -107,7 +114,7 @@ p {
     border-radius: 45%;
     max-height: 20em;
     width: auto;
-    border: 0.2em solid black;
+    border: 0.2em solid rgb(134, 0, 134);
 }
 
 
