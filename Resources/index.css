@@ -40,9 +40,11 @@ h2 {
 
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, cursive;
-    padding-top: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;;
     padding-left: 2em;
     padding-right: 2em;
+    text-justify:auto;
 }
 
 .body-day {
@@ -126,6 +128,9 @@ hr {
         height: 104em;
         max-width: 100%;
     } 
+    h2 {
+        visibility: hidden;
+    }
 }
 /* CSS screens 550px o above */
 @media (min-width: 550px) {
@@ -142,6 +147,9 @@ hr {
         height: 112em;
         max-width: 100%;
     }  
+    h2 {
+        visibility: hidden;
+    }
 }
 /* CSS screens 900px o above */
 @media (min-width: 900px) {
@@ -158,6 +166,9 @@ hr {
         height: 120em;
         max-width: 100%;
     } 
+    h2 {
+        visibility: visible;
+    }
 }
 /* CSS screens 1200px o above */
 @media (min-width: 1200px) {
@@ -174,6 +185,9 @@ hr {
         height: 73em;
         max-width: 100%;
     } 
+    h2 {
+        visibility: visible;
+    }
 }
 #about img {
     border-radius: 45%;
