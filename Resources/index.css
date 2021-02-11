@@ -27,6 +27,14 @@ a .theme-night {
      color: black;
 }
 
+.tooltip-dark~.tooltip>.tooltip-inner {
+    background-color: black;
+  }
+  
+  .tooltip-dark~.tooltip>.tooltip-arrow {
+    border-bottom-color: black;
+  }
+
 h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, bold;
     padding-top: 1em;
@@ -73,6 +81,15 @@ hr {
     margin-bottom: 1rem;
     border: 0;
     border-top: 2px solid rgba(67, 0, 88, 0.842);
+}
+
+.sector-separator {
+    display: flex;
+    border: 0;
+    height: 20em;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 /*/SYLE BY COMMON COMPONENTS/*/
 
@@ -125,7 +142,7 @@ hr {
         max-width: 100%;
     } 
     #programming iframe {
-        height: 104em;
+        height: 109em;
         max-width: 100%;
     } 
     h2 {
@@ -144,7 +161,7 @@ hr {
         max-width: 100%;
     }
     #programming iframe {
-        height: 112em;
+        height: 117em;
         max-width: 100%;
     }  
     h2 {
@@ -163,7 +180,7 @@ hr {
         max-width: 100%;
     }
     #programming iframe {
-        height: 120em;
+        height: 125em;
         max-width: 100%;
     } 
     h2 {
@@ -174,15 +191,15 @@ hr {
 @media (min-width: 1200px) {
 
     #about iframe {
-        height: 42em;
+        height: 39em;
         max-width: 100%;
     }
     #gaming iframe {
-        height: 54em;
+        height: 58em;
         max-width: 100%;
     }
     #programming iframe {
-        height: 73em;
+        height: 76em;
         max-width: 100%;
     } 
     h2 {

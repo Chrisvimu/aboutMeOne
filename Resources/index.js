@@ -30,3 +30,7 @@ function themeChanger(object, oldTheme, newTheme) {
         $(val).toggleClass(`${oldTheme} ${newTheme}`);
     });
 };
+
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+});
