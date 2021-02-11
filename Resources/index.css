@@ -2,6 +2,15 @@
 
 
 /*SYLE BY COMMON COMPONENTS*/
+a:hover {
+    font-weight: 900;
+  }
+a .theme-day {
+    Color: black;
+}
+a .theme-night {
+    color: snow;
+}
 .theme-night {
     background: hsla(213, 65%, 28%, 1);
 
@@ -10,12 +19,12 @@
     color: #F4F4ED;
 }
 .theme-day {
-    background: hsla(53, 98%, 56%, 1);
 
-    background: linear-gradient(225deg, hsla(53, 98%, 56%, 1) 2%, hsla(16, 100%, 64%, 1) 20%, hsla(315, 48%, 55%, 1) 64%, hsla(200, 87%, 82%, 1) 98%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#fde321", endColorstr="#ff7847", GradientType=1 );
-    color: black;
+     background: hsla(40, 100%, 67%, 1);
+
+     background: -moz-linear-gradient(225deg, hsla(40, 100%, 67%, 1) 0%, hsla(8, 100%, 68%, 1) 50%, hsla(323, 71%, 46%, 1) 94%);     
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ffc857", endColorstr="#ff715b", GradientType=1 );
+     color: black;
 }
 
 h1 {
@@ -82,7 +91,20 @@ hr {
 
 #footer {
     width: 100%;
+    position: relative;
+    bottom: 0;
     height: 12em;
+}
+
+#footer nav{
+    
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    font: 120% system-ui;
+    text-align: center;
+    padding: 2rem 1rem;
+    width: 100%;
 }
 
 #about {
@@ -176,6 +198,7 @@ hr {
 }
 #programming-header img {
     width:100%!important;
+    height: auto;
 } 
 #portafolio img {
     max-width: 100%;
