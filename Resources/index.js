@@ -5,8 +5,6 @@ $(document).ready(function () {
         let tNight = "theme-night";
         let tImage = document.getElementById('theme-image');
         let tButton = document.getElementById('theme-selector');
-        // let tBody = document.getElementById('body');
-        // let tBody = document.querySelector("body");
         if (header.hasClass(tDay)) {
             let theme = $(".theme-day")
             let tBody = $(".body-day")
