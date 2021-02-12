@@ -1,9 +1,18 @@
 /*STYLE SHEET FOR PAGE CONTENTS. SARED BETWEEN HTML FILES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+body {
+    font-family: sans-serif;
+  }
 
 /*SYLE BY COMMON COMPONENTS*/
 a:hover {
     font-weight: 900;
+    transition-timing-function: ease-out;
   }
 a .theme-day {
     Color: black;
@@ -94,20 +103,6 @@ hr {
 /*/SYLE BY COMMON COMPONENTS/*/
 
 /*STYLE BY SECTIONS*/
-#header {
-    border-radius: 0 0 20% 20%;
-    height: 5em;
-}
-#header img {
-    height: 4em;
-    width: 4em;
-}
-#header button {
-    align-self: flex-end center;
-    padding-right: 1em;
-    border-radius: 50%;
-}
-
 #footer {
     width: 100%;
     position: relative;
@@ -131,6 +126,12 @@ hr {
     border-radius: 15%;
 }
 /* CSS screens 320px o above */
+
+#header img {
+    max-width: 2em;
+    max-height: 2em;
+    align-self: center;
+}
 @media (min-width: 320px) {
 
     #about iframe {
@@ -138,7 +139,7 @@ hr {
         max-width: 100%;
     } 
     #gaming iframe {
-        height: 69em;
+        height: 74em;
         max-width: 100%;
     } 
     #programming iframe {
@@ -187,6 +188,7 @@ hr {
         visibility: visible;
     }
 }
+
 /* CSS screens 1200px o above */
 @media (min-width: 1200px) {
 
@@ -205,6 +207,7 @@ hr {
     h2 {
         visibility: visible;
     }
+
 }
 #about img {
     border-radius: 45%;
@@ -225,7 +228,7 @@ hr {
     width: 100%;
     height: auto;
     position: relative;
-  text-align: center;
+    text-align: center;
 }
 #programming-header img {
     width:100%!important;

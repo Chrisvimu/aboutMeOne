@@ -47,14 +47,15 @@
             <div class="col-md-6 col-sm-12 col-lg-6  order-md-2">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carouselExampleCaptions0" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#carouselExampleCaptions5" data-bs-slide-to="5"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="carousel-item active" data-bs-interval="5000" id="1">
                             <div class="tenor-gif-embed" data-postid="17643441" data-share-method="host"
                                 data-width="100%" data-aspect-ratio="1.3423180592991915"><a
                                     href="https://tenor.com/view/sam-poe-choose-choices-items-gif-17643441">Sam Poe
@@ -67,7 +68,7 @@
                                     possibilities for your unique build and experience</p>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item" data-bs-interval="5000" id="2">
                             <div class="tenor-gif-embed" data-postid="20229955" data-share-method="host"
                                 data-width="100%" data-aspect-ratio="1.7785714285714287"><a
                                     href="https://tenor.com/view/poe-path-of-exile-sirus-path-of-exile-sirus-poe-hardcore-gif-20229955">Poe
@@ -79,7 +80,7 @@
                                     gamimg experience</p>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item" data-bs-interval="5000" id="3">
                             <div class="tenor-gif-embed" data-postid="3883244" data-share-method="host"
                                 data-width="100%" data-aspect-ratio="2.360189573459716"><a
                                     href="https://tenor.com/view/skyrim-the-elder-scrolls-dragon-roar-dragon-roaring-gif-3883244">Roaring
@@ -91,7 +92,7 @@
                                 <p>One epic RPG gaming experience in an open world fantasy setting. Try Mods!</p>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item" data-bs-interval="5000" id="4">
                             <div class="tenor-gif-embed" data-postid="18520271" data-share-method="host"
                                 data-width="100%" data-aspect-ratio="1.7785714285714287"><a
                                     href="https://tenor.com/view/league-of-legends-gaming-swain-swain-league-of-legends-gif-18520271">League
@@ -104,12 +105,19 @@
                                     friends.</p>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item" data-bs-interval="5000" id="5">
                             <div class="tenor-gif-embed" data-postid="14509863" data-share-method="host"
                                 data-width="100%" data-aspect-ratio="1.4310344827586208"><a
                                     href="https://tenor.com/view/witcher-weapons-fighting-gif-14509863">Witcher Weapons
                                     GIF</a> from <a href="https://tenor.com/search/witcher-gifs">Witcher GIFs</a></div>
                             <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>The Witcher 3</h5>
+                                <p>Probably one of the best games overall and a masterpiece of A-RPG. </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000" id="6">
+                            <img src="./Resources gaming/tyranny1.jpg" width="100%" aspect-ratio="1.4310344827586208">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>The Witcher 3</h5>
                                 <p>Probably one of the best games overall and a masterpiece of A-RPG. </p>
@@ -127,12 +135,15 @@
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-lg-6  order-md-1">
-                <h3>Some of my favorite games :)</h3>
-                <hr>
-                <p class="pt-1">Morbi luctus aliquam egestas. Orci varius natoque penatibus et
-                    magnis dis parturient montes, nascetur ridiculus mus. Aenean porttitor est nunc, ac pulvinar leo
-                    eleifend id. Quisque a semper eros. Nullam condimentum velit id sem aliquet dapibus. Duis at metus
-                    sit amet lorem facilisis vehicula.</p>
+                <span id="current-game">
+                    <h3>Some of my favorite games :)</h3>
+                    <hr>
+                    <p class="pt-1">Morbi luctus aliquam egestas. Orci varius natoque penatibus et
+                        magnis dis parturient montes, nascetur ridiculus mus. Aenean porttitor est nunc, ac pulvinar leo
+                        eleifend id. Quisque a semper eros. Nullam condimentum velit id sem aliquet dapibus. Duis at
+                        metus
+                        sit amet lorem facilisis vehicula.</p>
+                </span>
             </div>
         </div>
     </div>
@@ -152,6 +163,7 @@
         crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script defer src="index.js"></script>
+    <script defer src="Resources gaming/gaming.js"></script>
     <!--/SCRIPTS-->
 </body>
 

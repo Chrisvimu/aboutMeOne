@@ -9,14 +9,14 @@ $(document).ready(function () {
             let theme = $(".theme-day")
             let tBody = $(".body-day")
             themeChanger(theme, tDay, tNight); // Changes theme for footer and navBar
-            tImage.src = "Resources/moon.png";
+            tImage.src = "Resources/Resources Navbar/moon.png";
             tButton.className = "btn btn-outline-secondary";
             themeChanger(tBody, "body-day", "body-night"); // Changes body theme
         } else if (header.hasClass(tNight)) {
             let theme = $(".theme-night")
             let tBody = $(".body-night")
             themeChanger(theme, tNight, tDay); // Changes theme for footer and navBar
-            tImage.src = "Resources/sun.png";
+            tImage.src = "Resources/Resources Navbar/sun.png";
             tButton.className = "btn btn-outline-warning";
             themeChanger(tBody, "body-night", "body-day"); // Changes body theme
         } else {
@@ -34,3 +34,6 @@ function themeChanger(object, oldTheme, newTheme) {
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip()
 });
+
+
+
